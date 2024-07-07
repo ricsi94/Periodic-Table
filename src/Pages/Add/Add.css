@@ -1,0 +1,81 @@
+.centered-form {
+	margin: auto;
+	width: 50%;
+}
+
+.input-label {
+	color: black;
+	text-align: left;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+	border: 3px solid black;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border-radius: 1em;
+	outline: none;
+}
+
+input[type="submit"] {
+	color: var(--text-color);
+	background-color: var(--primary);
+	border: 3px solid var(--border);
+	width: 50%;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	display: block;
+	font-family: "Poppins", sans-serif;
+	padding: 10px;
+	border-radius: 2em;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: var(--hover);
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	.centered-form {
+		width: 80%;
+	}
+	input[type="submit"] {
+		width: 80%;
+	}
+}
+
+.invalid-input {
+	margin-top: 0.5em;
+	color: red;
+}
+
+.successfully-added-div {
+	text-align: center;
+	margin-top: 5em;
+}
+
+/* DARK THEME */
+
+.input-label.dark {
+	color: white;
+}
+
+input[type="submit"].dark {
+	color: var(--dark-text-color);
+	background-color: var(--dark-primary);
+	border: 3px solid var(--dark-border);
+}
+
+input[type="submit"].dark:hover {
+	background-color: var(--dark-hover);
+	color: black;
+}
+
+.invalid-input.dark {
+	color: #ff9d9d;
+}

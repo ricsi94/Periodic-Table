@@ -1,0 +1,68 @@
+{
+	"elements": [
+		{
+			"symbol": "Na",
+			"name": "Natrium",
+			"number": "11",
+			"weight": "23",
+			"group": "alkali-metals",
+			"id": "11"
+		},
+		{
+			"symbol": "K",
+			"name": "Kalium",
+			"number": "19",
+			"weight": "39",
+			"group": "alkali-metals",
+			"id": "19"
+		},
+		{
+			"symbol": "H",
+			"name": "Hydrogen",
+			"number": "1",
+			"weight": "1",
+			"group": "nonmetals",
+			"id": "1"
+		},
+		{
+			"symbol": "N",
+			"name": "Nitrogen",
+			"number": "7",
+			"weight": "14",
+			"group": "nonmetals",
+			"id": "7"
+		},
+		{
+			"symbol": "F",
+			"name": "Fluorine",
+			"number": "9",
+			"weight": "19",
+			"group": "halogens",
+			"id": "9"
+		},
+		{
+			"symbol": "Cl",
+			"name": "Chlorine",
+			"number": "17",
+			"weight": "35",
+			"group": "halogens",
+			"id": "17"
+		},
+		{
+			"symbol": "Ne",
+			"name": "Neon",
+			"number": "10",
+			"weight": "20",
+			"group": "noble-gases",
+			"id": "10"
+		},
+		{
+			"symbol": "Ar",
+			"name": "Argon",
+			"number": "18",
+			"weight": "40",
+			"group": "noble-gases",
+			"id": "18"
+		}
+	]
+}

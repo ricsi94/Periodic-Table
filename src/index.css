@@ -1,0 +1,11 @@
+:root {
+  --primary : Lightblue;
+  --hover : DodgerBlue;
+  --border :  DeepSkyBlue;
+  --text-color: black;
+
+  --dark-primary : MidnightBlue;
+  --dark-hover : DodgerBlue;
+  --dark-border :  DeepSkyBlue;
+  --dark-text-color: white;
+}

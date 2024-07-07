@@ -1,0 +1,12 @@
+.elements {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em;
+	width: 80%;
+	margin: auto;
+	justify-content: center;
+}
+
+.centered {
+	text-align: center;
+}
